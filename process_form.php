@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Redirecting back to main site in 5 seconds.";
     }
 } else {
-    echo "Invalid request." . "<br>">;
+    echo "Invalid request." . "<br>";
     echo "Redirecting back to main site in 5 seconds.";
 }
 ?>
