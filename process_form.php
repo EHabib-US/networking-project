@@ -9,7 +9,7 @@ header("Refresh: 5; url=index.html");
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST["choice"])) {
         $choice = $_POST["choice"];
-        echo "You selected: " . htmlspecialchars($choice) . " Redirecting back to the main page in 5 seconds...";
+        echo "You selected the color: " . htmlspecialchars($choice) . ". Redirecting back to the main page in 5 seconds...";
     } else {
         echo "No choice selected. Redirecting back to the main page in 5 seconds...";
     }
